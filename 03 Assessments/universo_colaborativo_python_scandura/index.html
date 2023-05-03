@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Postagem</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header_box"> 
+          <ul>
+            <li><a href="./cadastrar.html">Postar</a></li>
+            <li><a href="./listar.html">Ver Posts</a></li>
+            <li><a href="./index.html">Home</a></li>
+          </ul>
+        </div>
+      </header>
+
+    
+    <main>
+        <h1>Quer postar ou ver posts ?</h1>
+        <div id="escolha">
+            <button class="caixa_direita"><a href="/cadastrar.html">Postar</a></button>
+            <button class="caixa_esquerda"><a href="/listar.html">Olhar</a></button>
+        </div>
+    </main>
+
+
+    <script src="./script.js"></script>
+    <style>
+        body{
+            background-color: #d99973;
+        }
+
+        *{
+            margin: 0;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+        .header_box{
+            background-color: #669999;
+            min-height: 70px;
+            padding-top: 20px;
+        }
+        .header_box ul{
+            display: flex;
+            max-width: 500px;
+            margin: auto;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .header_box ul li a{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        main{  
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        #escolha{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 400px;
+            margin: 30px auto 0;
+        }
+        #escolha button{
+            display: inline-block;
+            background-color: #669999;
+            height: 40px;
+            width: 100px;
+            border-radius: 15px;
+            border: none;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Postar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="cadastrar.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="header_box">
+        <ul>
+          <li><a href="./cadastrar.html">Postar</a></li>
+          <li><a href="./listar.html">Ver Posts</a></li>
+          <li><a href="./index.html">Home</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <form id="myForm">
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor" required/><br />
+  
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required /><br />
+  
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado"  required /><br />
+  
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required /><br />
+  
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"  required /><br />
+  
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao"></input><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <script src="cadastrar.js"></script>
+  </body>
+</html>
