@@ -22,9 +22,9 @@ cep = input("Informe o CEP: ")
 cep = cep.replace("-", "").replace(".", "").replace(" ", "")
 
 if len(cep) == 8:
-    link = f'https://viacep.com.br/ws/{cep}/json/'
+    url = f'https://viacep.com.br/ws/{cep}/json/'
 
-    requisicao = requests.get(link)
+    requisicao = requests.get(url)
 
     #dic_requisicao = requisicao.json()
     #print('retorno ' , requisicao.status_code)
