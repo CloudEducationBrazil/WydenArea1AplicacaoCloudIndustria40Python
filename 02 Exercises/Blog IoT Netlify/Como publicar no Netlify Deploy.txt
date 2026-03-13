@@ -1,0 +1,15 @@
+Como publicar no Netlify (Deploy)
+
+Passo 1 - Criar uma pasta com os arquivos do blog.
+
+Passo 2 - Compactar em .zip ou manter a pasta.
+
+Passo 3 - Acessar: https://www.netlify.com
+
+Passo 4 - Criar conta ou entrar com GitHub / Google.
+
+Passo 5  - Ir em Sites → Add new site → Deploy manually
+
+Passo 6 - Arrastar a pasta do projeto.
+
+Passo 7 - O Netlify gera um link como: 	https://meublog-iot.netlify.app

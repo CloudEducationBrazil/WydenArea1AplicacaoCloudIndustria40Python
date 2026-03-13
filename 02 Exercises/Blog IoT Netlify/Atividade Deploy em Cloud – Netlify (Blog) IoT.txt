@@ -1,0 +1,12 @@
+Deploy em Cloud – Netlify (Blog) IoT
+
+Como atividade relacionada ao conteúdo da ementa da disciplina de IoT, cada aluno deverá criar um Blog e publicá-lo na plataforma Netlify.
+
+Orientações:
+	HTML5/CSS, Bootstrap ou outra tecnologia equivalente de front-end.
+
+Importante:
+	Posso solicitar uma mini apresentação do blog no dia da aula.
+
+
+Arquitetura de um projeto com ThingsBoard (ESP32 + MQTT + Dashboard)

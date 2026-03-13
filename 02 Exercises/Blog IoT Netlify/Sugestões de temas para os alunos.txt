@@ -1,0 +1,19 @@
+Sugestões de temas para os alunos
+
+1. Smart Cities
+
+2. Casas Inteligentes
+
+4. IoT na Agricultura
+
+5. Wearables
+
+6. Indústria 4.0
+
+7. Segurança em IoT
+
+8. Sensores e Atuadores
+
+9. Gateways IoT
+
+10. Plataformas IoT (ThingsBoard, Arduino Cloud, etc.)
