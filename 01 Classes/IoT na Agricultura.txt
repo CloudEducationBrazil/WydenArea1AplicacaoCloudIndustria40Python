@@ -1,0 +1,63 @@
+Em IoT na Agricultura (Agro 4.0), os componentes mais utilizados envolvem sensoriamento, comunicação, energia e automação elétrica. 
+
+Seguem os principais:
+
+1) Sensores (coleta de dados)
+Sensor de umidade do solo (capacitivo)
+Sensor de temperatura e umidade do ar (DHT22, SHT20, BME280)
+Sensor de luminosidade (LDR, BH1750)
+Sensor de pH do solo
+Sensor de condutividade elétrica (EC) (salinidade do solo/água)
+Sensor de nível de água (boia, ultrassônico)
+Sensor de chuva (pluviômetro)
+Sensor de fluxo de água (hidrômetro digital)
+Sensor de pressão (linhas de irrigação)
+Sensor de gás (amônia em granjas, por exemplo)
+
+2) Controladores (processamento)
+ESP32 / ESP8266
+Arduino (Uno, Mega, Nano)
+Raspberry Pi (mais robusto para servidor local)
+PLC (CLP industrial) para automação mais profissional
+
+3) Comunicação (rede)
+Wi-Fi (áreas com cobertura)
+LoRa / LoRaWAN (muito usado em fazendas por longo alcance)
+GSM/4G/5G (SIM800, SIM7600) para locais remotos
+Bluetooth (curta distância)
+ZigBee (redes em malha)
+NB-IoT (redes específicas de IoT)
+
+4) Energia (parte elétrica)
+
+Placa solar (painel fotovoltaico)
+Controlador de carga solar
+Bateria estacionária (12V/24V)
+Inversor (DC → AC) se precisar alimentar cargas em 110/220V
+Reguladores DC-DC (buck converter) (ex: 12V para 5V ou 3.3V)
+Fonte chaveada
+Proteção elétrica: fusíveis, disjuntores, DPS
+
+5) Atuadores (automação)
+Relés (acionar bombas e válvulas)
+Válvulas solenoides (irrigação automática)
+Motores elétricos (bombas d’água)
+Servomotores (controle de abertura/fechamento)
+Contatores (para motores mais fortes)
+Eletroímãs e sensores de válvula
+
+6) Módulos adicionais
+GPS (monitoramento de máquinas/animais)
+Câmeras IP (monitoramento remoto)
+Cartão SD / memória flash (armazenamento local)
+RTC (relógio de tempo real) (DS3231)
+Display LCD/OLED (status no campo)
+
+7) Infraestrutura e plataforma
+Gateway IoT (concentrador LoRa/4G)
+Servidor/Cloud (AWS IoT, Azure IoT, Google Cloud)
+Banco de dados e dashboard (Node-RED, Grafana, ThingsBoard)
+Aplicativo web/mobile para monitoramento
+
+- kit típico em irrigação inteligente:
+Sensor umidade do solo + ESP32 + LoRa/4G + painel solar + bateria + controlador de carga + válvula solenoide + relé/contator + dashboard na nuvem.

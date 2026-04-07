@@ -1,0 +1,20 @@
+- Overview - Revisão IoT
+
+1. Protocolo HTTPS/COMUNICAÇÃO M2M
+
+2. MÉTODOS HTTP
+    método HTTP que envia dados, colocando-os no corpo da mensagem, e deixa a URI separada dos dados que serão enviados.
+
+3. Protocolo MQTT
+   https://youtu.be/FvYIA8NCYm4
+3.1.A arquitetura do protocolo MQTT possibilita que ele seja aplicado com sucesso em diversas plataformas de IoT. O MQTT consiste em alguns componentes básicos: pub/sub/broker
+
+4. Arduino (Uno, Mega, Nano). Qualcomm Technologies, Inc
+
+5. Placa NodeMCU e o microcontrolador ESP8266, empresa chinesa Espressif Systems.
+5.1. A placa física, no entanto, é produzida por diversas fabricantes genéricas ou parceiras, sendo as versões Amica e Lolin (V2/V3) as mais comuns no mercado.
+5.2.O ESP8285 é um microcontrolador Wi-Fi de baixo custo e alta eficiência, essencialmente um ESP8266 com 1MB de memória flash integrada,
+
+6. A plataforma OpenIoT é uma das mais conhecidas para o desenvolvimento de aplicações IoT. Um dos principais componentes da sua arquitetura é a Rede Global de Sensores (GSN).
+
+7. https://wokwi.com/dashboard/projects
