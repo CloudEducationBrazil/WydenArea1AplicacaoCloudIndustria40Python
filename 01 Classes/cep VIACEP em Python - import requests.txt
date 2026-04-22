@@ -1,0 +1,17 @@
+import requests
+
+cep = "41720075"
+url = f"https://viacep.com.br/ws/{cep}/json/"
+
+resp = requests.get(url)
+dados = resp.json()
+
+if "erro" in dados:
+    print("CEP inválido")
+else:
+    print(dados["logradouro"])
+    print(dados["bairro"])
+    print(dados["localidade"])
+    print(dados["complemento"])
+    print(dados["uf"])
+    print(dados["cep"])
